@@ -1,65 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="JR monogram with the name Md. Jahid Hasan Raihan, full-stack developer, Dhaka Bangladesh">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Md. Jahid Hasan Raihan, full-stack developer. A live diagram showing a request travelling from React through DRF and Django and the ORM to PostgreSQL.">
 <defs>
-  <linearGradient id="hx" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#a8fff4"/><stop offset="45%" stop-color="#2ee8cf"/><stop offset="100%" stop-color="#0b6f7d"/>
-  </linearGradient>
-  <linearGradient id="mono" x1="10%" y1="0%" x2="90%" y2="100%">
-    <stop offset="0%" stop-color="#ffffff"/><stop offset="48%" stop-color="#b6fff5"/><stop offset="100%" stop-color="#2ee8cf"/>
-  </linearGradient>
-  <linearGradient id="nameG" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#ffffff"/><stop offset="58%" stop-color="#d6fff9"/><stop offset="100%" stop-color="#2ee8cf"/>
-  </linearGradient>
-  <linearGradient id="ruleG" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#2ee8cf"/><stop offset="62%" stop-color="#2ee8cf" stop-opacity=".22"/><stop offset="100%" stop-color="#2ee8cf" stop-opacity="0"/>
-  </linearGradient>
-  <radialGradient id="bg" cx="18%" cy="42%" r="98%">
-    <stop offset="0%" stop-color="#05262d"/><stop offset="54%" stop-color="#02151a"/><stop offset="100%" stop-color="#01090c"/>
+  <radialGradient id="bg" cx="20%" cy="18%" r="105%">
+    <stop offset="0%" stop-color="#062a33"/><stop offset="50%" stop-color="#02161c"/><stop offset="100%" stop-color="#01090c"/>
   </radialGradient>
-  <filter id="gl" x="-80%" y="-80%" width="260%" height="260%">
-    <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  <linearGradient id="nameG" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ffffff"/><stop offset="52%" stop-color="#cdfff7"/><stop offset="100%" stop-color="#2ee8cf"/>
+  </linearGradient>
+  <linearGradient id="hx" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#a8fff4"/><stop offset="50%" stop-color="#2ee8cf"/><stop offset="100%" stop-color="#0b6f7d"/>
+  </linearGradient>
+  <filter id="pg" x="-300%" y="-300%" width="700%" height="700%">
+    <feGaussianBlur stdDeviation="3.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <filter id="haze" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="44"/></filter>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="40"/></filter>
 </defs>
 
-<rect width="1000" height="300" rx="22" fill="url(#bg)"/>
-<g stroke="#2ee8cf" stroke-opacity=".04" stroke-width="1">
-  <path d="M0 75H1000M0 150H1000M0 225H1000"/>
-  <path d="M125 0V300M250 0V300M375 0V300M500 0V300M625 0V300M750 0V300M875 0V300"/>
+<rect width="1000" height="340" rx="22" fill="url(#bg)"/>
+<g stroke="#2ee8cf" stroke-opacity=".035" stroke-width="1">
+  <path d="M0 68H1000M0 136H1000M0 204H1000M0 272H1000"/>
+  <path d="M125 0V340M250 0V340M375 0V340M500 0V340M625 0V340M750 0V340M875 0V340"/>
 </g>
-<ellipse cx="176" cy="150" rx="150" ry="140" fill="#17a49e" opacity=".22" filter="url(#haze)"/>
+<ellipse cx="200" cy="80" rx="260" ry="120" fill="#12808c" opacity=".2" filter="url(#soft)"/>
 
-<!-- ===== JR MONOGRAM MARK ===== -->
-<g transform="translate(176 142)" filter="url(#gl)">
-  <!-- outer hex -->
-  <path d="M0 -82 L71 -41 L71 41 L0 82 L-71 41 L-71 -41 Z" fill="#06242c" stroke="url(#hx)" stroke-width="3.2"/>
-  <!-- inner counter-rotating ring -->
-  <path d="M0 -60 L52 -30 L52 30 L0 60 L-52 30 L-52 -30 Z" fill="none" stroke="url(#hx)" stroke-width="1.5" opacity=".32">
-    <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="34s" repeatCount="indefinite"/>
-  </path>
-  <!-- monogram -->
-  <text x="0" y="19" text-anchor="middle" fill="url(#mono)" font-size="54" font-weight="700"
-        font-family="Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="-3">JR</text>
-  <!-- vertex nodes -->
-  <g fill="#a8fff4">
-    <circle cx="0" cy="-82" r="4"><animate attributeName="opacity" values="1;.35;1" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="71" cy="-41" r="4"><animate attributeName="opacity" values="1;.35;1" dur="4s" begin="-.7s" repeatCount="indefinite"/></circle>
-    <circle cx="71" cy="41" r="4"><animate attributeName="opacity" values="1;.35;1" dur="4s" begin="-1.4s" repeatCount="indefinite"/></circle>
-    <circle cx="0" cy="82" r="4"><animate attributeName="opacity" values="1;.35;1" dur="4s" begin="-2.1s" repeatCount="indefinite"/></circle>
-    <circle cx="-71" cy="41" r="4"><animate attributeName="opacity" values="1;.35;1" dur="4s" begin="-2.8s" repeatCount="indefinite"/></circle>
-    <circle cx="-71" cy="-41" r="4"><animate attributeName="opacity" values="1;.35;1" dur="4s" begin="-3.5s" repeatCount="indefinite"/></circle>
-  </g>
+<!-- header row: mark + name -->
+<g transform="translate(58 62)">
+  <path d="M0 -34 L29 -17 L29 17 L0 34 L-29 17 L-29 -17 Z" fill="#06242c" stroke="url(#hx)" stroke-width="2.2"/>
+  <text x="0" y="8" text-anchor="middle" fill="url(#hx)" font-size="22" font-weight="700"
+        font-family="Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="-1.2">JR</text>
 </g>
-
-<!-- ===== WORDMARK ===== -->
 <g>
-  <text x="332" y="112" fill="#2ee8cf" font-size="12.5" letter-spacing="6"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">FULL-STACK DEVELOPER</text>
-  <text x="332" y="172" fill="url(#nameG)" font-size="45" font-weight="700" letter-spacing="-1.2"
+  <text x="104" y="54" fill="url(#nameG)" font-size="30" font-weight="700" letter-spacing="-.7"
         font-family="Segoe UI,Helvetica,Arial,sans-serif">Md. Jahid Hasan Raihan</text>
-  <rect x="332" y="190" width="540" height="2" fill="url(#ruleG)"/>
-  <text x="332" y="222" fill="#5eead4" font-size="15.5"
-        font-family="ui-monospace,Menlo,Consolas,monospace">Django · DRF · React · PostgreSQL</text>
-  <text x="332" y="250" fill="#4d8f8a" font-size="12.5"
-        font-family="ui-monospace,Menlo,Consolas,monospace" letter-spacing=".6">Dhaka, Bangladesh  ·  Building complete systems, end to end</text>
+  <text x="105" y="78" fill="#4d9aa2" font-size="12" letter-spacing="3.4"
+        font-family="ui-monospace,Menlo,Consolas,monospace">FULL-STACK DEVELOPER · DHAKA, BD</text>
 </g>
+
+<!-- section label -->
+<text x="58" y="128" fill="#2ee8cf" font-size="11.5" letter-spacing="4.4"
+      font-family="ui-monospace,Menlo,Consolas,monospace">THE PATH OF A SINGLE REQUEST</text>
+
+<!-- pipeline -->
+<path d="M216.0 196H284.0" stroke="#1d6b78" stroke-width="1.6" fill="none"/>
+<path d="M416.0 196H484.0" stroke="#1d6b78" stroke-width="1.6" fill="none"/>
+<path d="M616.0 196H684.0" stroke="#1d6b78" stroke-width="1.6" fill="none"/>
+<path d="M816.0 196H858" stroke="#1d6b78" stroke-width="1.6" fill="none"/>
+<path d="M276.0 191l8 5-8 5z" fill="#2ee8cf" opacity=".75"/>
+<path d="M476.0 191l8 5-8 5z" fill="#2ee8cf" opacity=".75"/>
+<path d="M676.0 191l8 5-8 5z" fill="#2ee8cf" opacity=".75"/>
+<path d="M850 191l8 5-8 5z" fill="#2ee8cf" opacity=".75"/>
+<g>
+  <rect x="84.0" y="164.0" width="132" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
+  <rect x="84.0" y="164.0" width="132" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
+    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="0.0s" repeatCount="indefinite"/>
+  </rect>
+  <text x="150" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">React</text>
+  <text x="150" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
+        font-family="ui-monospace,Menlo,Consolas,monospace">Vite · Router</text>
+</g>
+<g>
+  <rect x="284.0" y="164.0" width="132" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
+  <rect x="284.0" y="164.0" width="132" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
+    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="0.62s" repeatCount="indefinite"/>
+  </rect>
+  <text x="350" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">DRF</text>
+  <text x="350" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
+        font-family="ui-monospace,Menlo,Consolas,monospace">serializers · JWT</text>
+</g>
+<g>
+  <rect x="484.0" y="164.0" width="132" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
+  <rect x="484.0" y="164.0" width="132" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
+    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="1.24s" repeatCount="indefinite"/>
+  </rect>
+  <text x="550" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Django</text>
+  <text x="550" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
+        font-family="ui-monospace,Menlo,Consolas,monospace">views · perms</text>
+</g>
+<g>
+  <rect x="684.0" y="164.0" width="132" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
+  <rect x="684.0" y="164.0" width="132" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
+    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="1.8599999999999999s" repeatCount="indefinite"/>
+  </rect>
+  <text x="750" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">ORM</text>
+  <text x="750" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
+        font-family="ui-monospace,Menlo,Consolas,monospace">queryset</text>
+</g>
+<g>
+  <rect x="858.0" y="164.0" width="96" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
+  <rect x="858.0" y="164.0" width="96" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
+    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="2.48s" repeatCount="indefinite"/>
+  </rect>
+  <text x="906" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">DB</text>
+  <text x="906" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
+        font-family="ui-monospace,Menlo,Consolas,monospace">Postgres</text>
+</g>
+<circle r="4.5" fill="#3dffe0" filter="url(#pg)"><animateMotion dur="4.4s" begin="0s" repeatCount="indefinite" path="M216.0 196H284.0M416.0 196H484.0M616.0 196H684.0M816.0 196H858"/></circle>
+<circle r="4.5" fill="#3dffe0" filter="url(#pg)"><animateMotion dur="4.4s" begin="1.47s" repeatCount="indefinite" path="M216.0 196H284.0M416.0 196H484.0M616.0 196H684.0M816.0 196H858"/></circle>
+<circle r="4.5" fill="#3dffe0" filter="url(#pg)"><animateMotion dur="4.4s" begin="2.94s" repeatCount="indefinite" path="M216.0 196H284.0M416.0 196H484.0M616.0 196H684.0M816.0 196H858"/></circle>
+
+<!-- footer line -->
+<text x="58" y="292" fill="#7fb8c2" font-size="12.5"
+      font-family="ui-monospace,Menlo,Consolas,monospace">Auth at the edge · permissions per role · prefetch to kill N+1 · schema before the first endpoint</text>
+<text x="58" y="314" fill="#3f7883" font-size="11.5"
+      font-family="ui-monospace,Menlo,Consolas,monospace">Every project is a whole system — interface, API and database — not an isolated feature.</text>
 </svg>

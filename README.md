@@ -63,15 +63,7 @@ Remote · Hybrid · Onsite
 
 ---
 
-## <img src="https://img.shields.io/badge/02-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;How I Think About Systems
-
-<div align="center">
-  <img src="./assets/architecture.svg" alt="The path of a single request: React, REST API, Django, ORM, PostgreSQL" width="100%" />
-</div>
-
----
-
-## <img src="https://img.shields.io/badge/03-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;What I Build With
+## <img src="https://img.shields.io/badge/02-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;What I Build With
 
 <table>
 <tr>
@@ -134,7 +126,7 @@ Remote · Hybrid · Onsite
 
 ---
 
-## <img src="https://img.shields.io/badge/04-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;Things I’ve Built
+## <img src="https://img.shields.io/badge/03-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;Things I’ve Built
 
 <table>
 <tr>
@@ -224,7 +216,7 @@ Text-to-image generation through the **Hugging Face inference API**, with authen
 
 ---
 
-## <img src="https://img.shields.io/badge/05-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;What I Care About
+## <img src="https://img.shields.io/badge/04-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;What I Care About
 
 <div align="center">
   <img src="./assets/principles.svg" alt="How I build: schema first, permissions at the API, systems not fragments, understand why" width="100%" />
