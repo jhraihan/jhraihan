@@ -5,7 +5,7 @@
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-062b31?style=for-the-badge&logo=googlechrome&logoColor=2ee8cf&labelColor=03161c)](https://portfolio-web-asu3.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-062b31?style=for-the-badge&labelColor=03161c&color=062b31)](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
+[<img src="./assets/linkedin.svg" alt="LinkedIn" height="34"/>](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
 [![Email](https://img.shields.io/badge/EMAIL-062b31?style=for-the-badge&logo=gmail&logoColor=2ee8cf&labelColor=03161c)](mailto:jahidhr05@gmail.com)
 
 </div>
@@ -240,7 +240,7 @@ Text-to-image generation through the **Hugging Face inference API**, with authen
 
 [![Email](https://img.shields.io/badge/jahidhr05@gmail.com-062b31?style=for-the-badge&logo=gmail&logoColor=2ee8cf&labelColor=03161c)](mailto:jahidhr05@gmail.com)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-062b31?style=for-the-badge&logo=googlechrome&logoColor=2ee8cf&labelColor=03161c)](https://portfolio-web-asu3.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-062b31?style=for-the-badge&labelColor=03161c&color=062b31)](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
+[<img src="./assets/linkedin.svg" alt="LinkedIn" height="34"/>](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
 
   <br>
   <sub><code>Dhaka, Bangladesh</code></sub>
