@@ -9,135 +9,125 @@
   <linearGradient id="ruleG" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#2ee8cf"/><stop offset="70%" stop-color="#2ee8cf" stop-opacity=".2"/><stop offset="100%" stop-color="#2ee8cf" stop-opacity="0"/>
   </linearGradient>
-  <filter id="hazeB" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="50"/></filter>
+  <filter id="hazeB" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="52"/></filter>
 
   
 
-  <!-- BODY: strong top-left key, luminous midtone, deep bottom-right falloff -->
-  <linearGradient id="skin" x1="18%" y1="4%" x2="82%" y2="96%">
-    <stop offset="0%"   stop-color="#d6fff9"/>
-    <stop offset="16%"  stop-color="#96f7ea"/>
-    <stop offset="40%"  stop-color="#4fe6d6"/>
-    <stop offset="66%"  stop-color="#27c4b8"/>
-    <stop offset="88%"  stop-color="#12988f"/>
-    <stop offset="100%" stop-color="#0a6f6a"/>
+  <!-- BODY: light wraps from upper-left across to a bright core, falls off right -->
+  <linearGradient id="skin" x1="14%" y1="6%" x2="86%" y2="94%">
+    <stop offset="0%"   stop-color="#eafffc"/>
+    <stop offset="12%"  stop-color="#a8fbee"/>
+    <stop offset="34%"  stop-color="#5eecdb"/>
+    <stop offset="58%"  stop-color="#33d3c4"/>
+    <stop offset="80%"  stop-color="#18a79e"/>
+    <stop offset="100%" stop-color="#0a716d"/>
   </linearGradient>
-  <linearGradient id="skinArm" x1="10%" y1="0%" x2="90%" y2="100%">
-    <stop offset="0%"   stop-color="#e4fffb"/>
-    <stop offset="20%"  stop-color="#a6fbef"/>
-    <stop offset="48%"  stop-color="#5aeadb"/>
-    <stop offset="78%"  stop-color="#23b4ab"/>
-    <stop offset="100%" stop-color="#0d7a76"/>
+  <!-- ARM: brighter, lit from the left like the reference -->
+  <linearGradient id="skinArm" x1="6%" y1="4%" x2="94%" y2="96%">
+    <stop offset="0%"   stop-color="#f2fffd"/>
+    <stop offset="16%"  stop-color="#b9fdf3"/>
+    <stop offset="42%"  stop-color="#68eddd"/>
+    <stop offset="72%"  stop-color="#28b8af"/>
+    <stop offset="100%" stop-color="#0b7370"/>
   </linearGradient>
 
-  <!-- screen glass -->
-  <radialGradient id="screen" cx="40%" cy="30%" r="80%">
-    <stop offset="0%" stop-color="#0b1d1e"/><stop offset="55%" stop-color="#040f10"/><stop offset="100%" stop-color="#000606"/>
+  <radialGradient id="screen" cx="38%" cy="28%" r="82%">
+    <stop offset="0%" stop-color="#0c2022"/><stop offset="52%" stop-color="#041011"/><stop offset="100%" stop-color="#000505"/>
   </radialGradient>
-  <linearGradient id="glassSheen" x1="6%" y1="0%" x2="52%" y2="100%">
-    <stop offset="0%" stop-color="#b6fff5" stop-opacity=".26"/>
-    <stop offset="38%" stop-color="#b6fff5" stop-opacity=".05"/>
-    <stop offset="100%" stop-color="#b6fff5" stop-opacity="0"/>
+  <linearGradient id="glassSheen" x1="4%" y1="0%" x2="56%" y2="100%">
+    <stop offset="0%" stop-color="#c2fff8" stop-opacity=".24"/>
+    <stop offset="40%" stop-color="#c2fff8" stop-opacity=".04"/>
+    <stop offset="100%" stop-color="#c2fff8" stop-opacity="0"/>
   </linearGradient>
 
   <filter id="eyeglow" x="-90%" y="-90%" width="280%" height="280%">
-    <feGaussianBlur stdDeviation="4.5" result="b"/>
+    <feGaussianBlur stdDeviation="4" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <filter id="s18" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
-  <filter id="s10" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
-  <filter id="s26" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="26"/></filter>
-  <filter id="bloom" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="52"/></filter>
+  <filter id="s12" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
+  <filter id="s22" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="s34" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="34"/></filter>
+  <filter id="bloom" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="58"/></filter>
 
 </defs>
-
 <rect width="1000" height="300" rx="22" fill="url(#bgB)"/>
 <g stroke="#2ee8cf" stroke-opacity=".045" stroke-width="1">
   <path d="M0 75H1000M0 150H1000M0 225H1000"/>
   <path d="M125 0V300M250 0V300M375 0V300M500 0V300M625 0V300M750 0V300M875 0V300"/>
 </g>
-<ellipse cx="162" cy="162" rx="190" ry="172" fill="#25dcc6" opacity=".26" filter="url(#hazeB)"/>
-
-<g transform="translate(-12 -8) scale(0.545)">
-<!-- ============ RAISED ARM: thick tapered mitten, high reach ============ -->
+<ellipse cx="168" cy="160" rx="196" ry="176" fill="#25dcc6" opacity=".25" filter="url(#hazeB)"/>
+<g transform="translate(-30 4) scale(0.475)">
+<!-- ================= RAISED ARM — SEPARATE, with a clear gap ================= -->
 <g>
   <animateTransform attributeName="transform" type="rotate"
-    values="-11 168 400; 6 168 400; -11 168 400" dur="2.7s" repeatCount="indefinite"/>
-  <path d="M168 404
-           C126 342 104 250 116 168
-           C123 118 152 86 184 96
-           C216 106 232 154 228 218
-           C224 288 214 352 216 406 Z"
+    values="-8 232 484; 5 232 484; -8 232 484" dur="2.8s" repeatCount="indefinite"/>
+  <!-- tall tapered mitten: wide base, rounded tip, leaning left -->
+  <path d="M214 486
+           C160 420 128 312 136 210
+           C142 142 174  98 212 106
+           C250 114 268 170 262 248
+           C256 318 252 380 268 486 Z"
         fill="url(#skinArm)"/>
-  <!-- deep crease where the arm tucks behind the shoulder -->
-  <path d="M216 226 C208 292 206 354 212 406 L236 406 C230 350 230 288 236 222 Z"
-        fill="#075f5c" opacity=".55" filter="url(#s10)"/>
-  <!-- key-light edge down the arm's left side -->
-  <path d="M116 168c8-48 38-78 68-68c11 4 20 13 26 26c-23-15-49 2-59 39c-10 36-14 84-10 132c-20-41-31-87-25-129z"
-        fill="#e6fffb" opacity=".52"/>
-  <!-- tip highlight -->
-  <ellipse cx="156" cy="142" rx="30" ry="42" transform="rotate(-13 156 142)" fill="#ffffff" opacity=".28" filter="url(#s18)"/>
+  <!-- shadow on the arm's right side (facing the body) -->
+  <path d="M246 254 C240 322 236 392 252 486 L276 486 C258 384 262 320 268 250 Z"
+        fill="#06514f" opacity=".5" filter="url(#s12)"/>
+  <!-- bright key edge on the left -->
+  <path d="M136 210c8-64 42-106 78-98c14 3 25 14 32 31c-28-18-58 4-70 48c-12 44-16 104-12 164c-24-50-36-104-28-145z"
+        fill="#f0fffd" opacity=".5"/>
+  <ellipse cx="188" cy="172" rx="32" ry="48" transform="rotate(-12 188 172)" fill="#ffffff" opacity=".26" filter="url(#s22)"/>
 </g>
 
-<!-- ============ BODY: tall rounded shell ============ -->
+<!-- ================= BODY — wide, tall, fills the frame ================= -->
 <g>
-  <path d="M300 54
-           c96 0 156 64 160 160
-           c3 66 1 134-7 186
-           c-4 27-25 41-60 45
-           c-37 4-127 4-164 0
-           c-35-4-56-18-60-45
-           c-8-52-10-120-7-186
-           C176 118 204 54 300 54 Z"
+  <path d="M344 60
+           c104 0 168 70 172 174
+           c4 72 2 146-8 202
+           c-5 30-27 45-65 49
+           c-40 5-138 5-178 0
+           c-38-4-60-19-65-49
+           c-10-56-12-130-8-202
+           C196 130 240 60 344 60 Z"
         fill="url(#skin)"/>
-
-  <!-- volumetric shading bottom-right -->
-  <ellipse cx="386" cy="392" rx="146" ry="132" fill="#06615f" opacity=".46" filter="url(#s26)"/>
-  <!-- key highlight top-left shoulder -->
-  <ellipse cx="214" cy="140" rx="64" ry="56" fill="#e8fffd" opacity=".55" filter="url(#s18)"/>
-  <!-- rim light, right edge -->
-  <path d="M300 54c96 0 156 64 160 160c3 66 1 134-7 186c-4 27-25 41-60 45c-9 1-23 2-37 2c34-8 51-25 55-47c8-52 10-120 7-186C414 128 366 72 300 60z"
-        fill="#d9fff9" opacity=".34"/>
-  <!-- broad body sheen -->
-  <ellipse cx="266" cy="372" rx="106" ry="82" fill="#9ff8ec" opacity=".13" filter="url(#s18)"/>
+  <!-- deep falloff bottom-right -->
+  <ellipse cx="440" cy="400" rx="150" ry="150" fill="#055b5a" opacity=".45" filter="url(#s34)"/>
+  <!-- key highlight upper-left shoulder -->
+  <ellipse cx="248" cy="150" rx="70" ry="62" fill="#f0fffd" opacity=".5" filter="url(#s22)"/>
+  <!-- rim light right edge -->
+  <path d="M344 60c104 0 168 70 172 174c4 72 2 146-8 202c-5 30-27 45-65 49c-10 1-25 2-40 2c37-9 55-27 60-51c10-56 12-130 8-202C467 142 414 80 344 68z"
+        fill="#dcfffa" opacity=".32"/>
+  <!-- soft sheen across the lower body -->
+  <ellipse cx="300" cy="388" rx="112" ry="88" fill="#a6f9ef" opacity=".12" filter="url(#s22)"/>
 </g>
 
-<!-- ============ FACE SCREEN: LARGE, inset, thick visible rim ============ -->
+<!-- ================= SCREEN FACE — large, inset, thick rim ================= -->
 <g>
-  <!-- outer shadow ring so the screen sits INSIDE the shell -->
-  <ellipse cx="306" cy="190" rx="112" ry="104" fill="#04403c" opacity=".55" filter="url(#s10)"/>
-  <ellipse cx="304" cy="186" rx="106" ry="98" fill="url(#screen)"/>
-  <!-- glass curvature -->
-  <ellipse cx="304" cy="186" rx="106" ry="98" fill="url(#glassSheen)"/>
-  <!-- top-left specular arc on the glass -->
-  <path d="M206 132 a106 98 0 0 1 92-48 a106 98 0 0 0-82 66z" fill="#c8fff7" opacity=".16"/>
-  <!-- bottom bounce light inside the glass -->
-  <path d="M392 238 a106 98 0 0 1-136 46 a106 98 0 0 0 136-46z" fill="#5fffe6" opacity=".09"/>
+  <ellipse cx="352" cy="196" rx="126" ry="116" fill="#03403d" opacity=".55" filter="url(#s12)"/>
+  <ellipse cx="350" cy="192" rx="120" ry="110" fill="url(#screen)"/>
+  <ellipse cx="350" cy="192" rx="120" ry="110" fill="url(#glassSheen)"/>
+  <path d="M238 132 a120 110 0 0 1 106-58 a120 110 0 0 0-92 76z" fill="#cffff9" opacity=".15"/>
+  <path d="M452 248 a120 110 0 0 1-158 54 a120 110 0 0 0 158-54z" fill="#66ffe9" opacity=".08"/>
 
-  <!-- PIXEL EYES: invader arches, generous size -->
-  <g fill="#3dffc9" filter="url(#eyeglow)">
+  <!-- PIXEL EYES: invader arches -->
+  <g fill="#41ffcb" filter="url(#eyeglow)">
     <g>
-      <!-- LEFT EYE : 5 cols x 5 rows arch -->
-      <rect x="240" y="152" width="8" height="8"/><rect x="250" y="152" width="8" height="8"/><rect x="260" y="152" width="8" height="8"/>
-      <rect x="230" y="162" width="8" height="8"/><rect x="240" y="162" width="8" height="8"/><rect x="250" y="162" width="8" height="8"/><rect x="260" y="162" width="8" height="8"/><rect x="270" y="162" width="8" height="8"/>
-      <rect x="230" y="172" width="8" height="8"/><rect x="250" y="172" width="8" height="8"/><rect x="270" y="172" width="8" height="8"/>
-      <rect x="230" y="182" width="8" height="8"/><rect x="270" y="182" width="8" height="8"/>
-      <rect x="230" y="192" width="8" height="8"/><rect x="270" y="192" width="8" height="8"/>
+      <rect x="298.5" y="167.0" width="6.4" height="6.4"/><rect x="306.3" y="167.0" width="6.4" height="6.4"/><rect x="314.1" y="167.0" width="6.4" height="6.4"/>
+      <rect x="290.7" y="174.8" width="6.4" height="6.4"/><rect x="298.5" y="174.8" width="6.4" height="6.4"/><rect x="306.3" y="174.8" width="6.4" height="6.4"/><rect x="314.1" y="174.8" width="6.4" height="6.4"/><rect x="321.9" y="174.8" width="6.4" height="6.4"/>
+      <rect x="290.7" y="182.6" width="6.4" height="6.4"/><rect x="306.3" y="182.6" width="6.4" height="6.4"/><rect x="321.9" y="182.6" width="6.4" height="6.4"/>
+      <rect x="290.7" y="190.4" width="6.4" height="6.4"/><rect x="321.9" y="190.4" width="6.4" height="6.4"/>
+      <rect x="290.7" y="198.2" width="6.4" height="6.4"/><rect x="321.9" y="198.2" width="6.4" height="6.4"/>
     </g>
     <g>
-      <!-- RIGHT EYE -->
-      <rect x="340" y="152" width="8" height="8"/><rect x="350" y="152" width="8" height="8"/><rect x="360" y="152" width="8" height="8"/>
-      <rect x="330" y="162" width="8" height="8"/><rect x="340" y="162" width="8" height="8"/><rect x="350" y="162" width="8" height="8"/><rect x="360" y="162" width="8" height="8"/><rect x="370" y="162" width="8" height="8"/>
-      <rect x="330" y="172" width="8" height="8"/><rect x="350" y="172" width="8" height="8"/><rect x="370" y="172" width="8" height="8"/>
-      <rect x="330" y="182" width="8" height="8"/><rect x="370" y="182" width="8" height="8"/>
-      <rect x="330" y="192" width="8" height="8"/><rect x="370" y="192" width="8" height="8"/>
+      <rect x="378.1" y="167.0" width="6.4" height="6.4"/><rect x="385.9" y="167.0" width="6.4" height="6.4"/><rect x="393.7" y="167.0" width="6.4" height="6.4"/>
+      <rect x="370.3" y="174.8" width="6.4" height="6.4"/><rect x="378.1" y="174.8" width="6.4" height="6.4"/><rect x="385.9" y="174.8" width="6.4" height="6.4"/><rect x="393.7" y="174.8" width="6.4" height="6.4"/><rect x="401.5" y="174.8" width="6.4" height="6.4"/>
+      <rect x="370.3" y="182.6" width="6.4" height="6.4"/><rect x="385.9" y="182.6" width="6.4" height="6.4"/><rect x="401.5" y="182.6" width="6.4" height="6.4"/>
+      <rect x="370.3" y="190.4" width="6.4" height="6.4"/><rect x="401.5" y="190.4" width="6.4" height="6.4"/>
+      <rect x="370.3" y="198.2" width="6.4" height="6.4"/><rect x="401.5" y="198.2" width="6.4" height="6.4"/>
     </g>
     <animate attributeName="opacity" values="1;1;1;1;1;1;1;1;1;1;1;1;.05;1" dur="7s" repeatCount="indefinite"/>
   </g>
 </g>
 
 </g>
-
 <g>
   <rect x="352" y="44" width="166" height="42" rx="21" fill="#06333a" stroke="#2ee8cf" stroke-opacity=".55"/>
   <path d="M380 86 l-9 16 25-16z" fill="#06333a"/>
@@ -145,7 +135,6 @@
         font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Hello there</text>
   <animate attributeName="opacity" values=".35;1;1;1;1;.35" dur="4.6s" repeatCount="indefinite"/>
 </g>
-
 <g font-family="Segoe UI,Helvetica,Arial,sans-serif">
   <text x="352" y="166" fill="url(#nameG)" font-size="44" font-weight="700" letter-spacing="-1.1">Md. Jahid Hasan Raihan</text>
   <rect x="352" y="184" width="530" height="2" fill="url(#ruleG)"/>
