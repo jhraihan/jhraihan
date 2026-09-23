@@ -4,10 +4,9 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0a2749?style=for-the-badge&logo=googlechrome&logoColor=38bdf8&labelColor=061a33)](https://portfolio-web-asu3.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0a2749?style=for-the-badge&labelColor=061a33&color=0a2749)](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
-[![LeetCode](https://img.shields.io/badge/LEETCODE-0a2749?style=for-the-badge&logo=leetcode&logoColor=38bdf8&labelColor=061a33)](https://leetcode.com/u/Jahid_Hasan_Raihan/)
-[![Email](https://img.shields.io/badge/EMAIL-0a2749?style=for-the-badge&logo=gmail&logoColor=38bdf8&labelColor=061a33)](mailto:jahidhr05@gmail.com)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-062b31?style=for-the-badge&logo=googlechrome&logoColor=2ee8cf&labelColor=03161c)](https://portfolio-web-asu3.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-062b31?style=for-the-badge&labelColor=03161c&color=062b31)](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
+[![Email](https://img.shields.io/badge/EMAIL-062b31?style=for-the-badge&logo=gmail&logoColor=2ee8cf&labelColor=03161c)](mailto:jahidhr05@gmail.com)
 
 </div>
 
@@ -23,7 +22,7 @@
 
 ---
 
-## <img src="https://img.shields.io/badge/01-38bdf8?style=flat-square&labelColor=061a33&color=061a33" height="20"/> &nbsp;Hello, I’m Jahid
+## <img src="https://img.shields.io/badge/01-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;Hello, I’m Jahid
 
 I’m a full-stack developer working across **Django**, **Django REST Framework**, **React**, and **PostgreSQL** — and I like building the whole thing.
 
@@ -64,7 +63,7 @@ Remote · Hybrid · Onsite
 
 ---
 
-## <img src="https://img.shields.io/badge/02-38bdf8?style=flat-square&labelColor=061a33&color=061a33" height="20"/> &nbsp;How I Think About Systems
+## <img src="https://img.shields.io/badge/02-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;How I Think About Systems
 
 <div align="center">
   <img src="./assets/architecture.svg" alt="The path of a single request: React, REST API, Django, ORM, PostgreSQL" width="100%" />
@@ -72,7 +71,7 @@ Remote · Hybrid · Onsite
 
 ---
 
-## <img src="https://img.shields.io/badge/03-38bdf8?style=flat-square&labelColor=061a33&color=061a33" height="20"/> &nbsp;What I Build With
+## <img src="https://img.shields.io/badge/03-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;What I Build With
 
 <table>
 <tr>
@@ -80,36 +79,36 @@ Remote · Hybrid · Onsite
 
 **CORE**
 
-![Python](https://img.shields.io/badge/Python-061a33?style=flat-square&logo=python&logoColor=38bdf8)
-![Django](https://img.shields.io/badge/Django-061a33?style=flat-square&logo=django&logoColor=38bdf8)
-![DRF](https://img.shields.io/badge/DRF-061a33?style=flat-square&logo=django&logoColor=38bdf8)
-![React](https://img.shields.io/badge/React-061a33?style=flat-square&logo=react&logoColor=38bdf8)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-061a33?style=flat-square&logo=postgresql&logoColor=38bdf8)
-![MySQL](https://img.shields.io/badge/MySQL-061a33?style=flat-square&logo=mysql&logoColor=38bdf8)
+![Python](https://img.shields.io/badge/Python-03161c?style=flat-square&logo=python&logoColor=2ee8cf)
+![Django](https://img.shields.io/badge/Django-03161c?style=flat-square&logo=django&logoColor=2ee8cf)
+![DRF](https://img.shields.io/badge/DRF-03161c?style=flat-square&logo=django&logoColor=2ee8cf)
+![React](https://img.shields.io/badge/React-03161c?style=flat-square&logo=react&logoColor=2ee8cf)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-03161c?style=flat-square&logo=postgresql&logoColor=2ee8cf)
+![MySQL](https://img.shields.io/badge/MySQL-03161c?style=flat-square&logo=mysql&logoColor=2ee8cf)
 
 </td>
 <td valign="top" width="33%">
 
 **PRODUCTION**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-061a33?style=flat-square&logo=javascript&logoColor=93c5fd)
-![Tailwind](https://img.shields.io/badge/Tailwind-061a33?style=flat-square&logo=tailwindcss&logoColor=93c5fd)
-![Vite](https://img.shields.io/badge/Vite-061a33?style=flat-square&logo=vite&logoColor=93c5fd)
-![Redis](https://img.shields.io/badge/Redis-061a33?style=flat-square&logo=redis&logoColor=93c5fd)
-![Git](https://img.shields.io/badge/Git-061a33?style=flat-square&logo=git&logoColor=93c5fd)
-![Linux](https://img.shields.io/badge/Linux-061a33?style=flat-square&logo=linux&logoColor=93c5fd)
+![JavaScript](https://img.shields.io/badge/JavaScript-03161c?style=flat-square&logo=javascript&logoColor=5eead4)
+![Tailwind](https://img.shields.io/badge/Tailwind-03161c?style=flat-square&logo=tailwindcss&logoColor=5eead4)
+![Vite](https://img.shields.io/badge/Vite-03161c?style=flat-square&logo=vite&logoColor=5eead4)
+![Redis](https://img.shields.io/badge/Redis-03161c?style=flat-square&logo=redis&logoColor=5eead4)
+![Git](https://img.shields.io/badge/Git-03161c?style=flat-square&logo=git&logoColor=5eead4)
+![Linux](https://img.shields.io/badge/Linux-03161c?style=flat-square&logo=linux&logoColor=5eead4)
 
 </td>
 <td valign="top" width="33%">
 
 **EXPANDING**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-061a33?style=flat-square&logo=fastapi&logoColor=5d84ad)
-![Next.js](https://img.shields.io/badge/Next.js-061a33?style=flat-square&logo=nextdotjs&logoColor=5d84ad)
-![Node.js](https://img.shields.io/badge/Node.js-061a33?style=flat-square&logo=nodedotjs&logoColor=5d84ad)
-![Nginx](https://img.shields.io/badge/Nginx-061a33?style=flat-square&logo=nginx&logoColor=5d84ad)
-![GitHub Actions](https://img.shields.io/badge/Actions-061a33?style=flat-square&logo=githubactions&logoColor=5d84ad)
-![AWS](https://img.shields.io/badge/AWS-061a33?style=flat-square&labelColor=061a33&color=061a33)
+![FastAPI](https://img.shields.io/badge/FastAPI-03161c?style=flat-square&logo=fastapi&logoColor=4d8f8a)
+![Next.js](https://img.shields.io/badge/Next.js-03161c?style=flat-square&logo=nextdotjs&logoColor=4d8f8a)
+![Node.js](https://img.shields.io/badge/Node.js-03161c?style=flat-square&logo=nodedotjs&logoColor=4d8f8a)
+![Nginx](https://img.shields.io/badge/Nginx-03161c?style=flat-square&logo=nginx&logoColor=4d8f8a)
+![GitHub Actions](https://img.shields.io/badge/Actions-03161c?style=flat-square&logo=githubactions&logoColor=4d8f8a)
+![AWS](https://img.shields.io/badge/AWS-03161c?style=flat-square&labelColor=03161c&color=03161c)
 
 </td>
 </tr>
@@ -135,7 +134,7 @@ Remote · Hybrid · Onsite
 
 ---
 
-## <img src="https://img.shields.io/badge/04-38bdf8?style=flat-square&labelColor=061a33&color=061a33" height="20"/> &nbsp;Things I’ve Built
+## <img src="https://img.shields.io/badge/04-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;Things I’ve Built
 
 <table>
 <tr>
@@ -147,10 +146,10 @@ Remote · Hybrid · Onsite
 
 Multi-role platform serving customers, sellers and administrators — product discovery, cart and checkout, **SSLCommerz** payment processing, order tracking, and seller inventory management.
 
-![Django](https://img.shields.io/badge/Django-061a33?style=flat-square&logo=django&logoColor=38bdf8)
-![DRF](https://img.shields.io/badge/DRF-061a33?style=flat-square&logoColor=38bdf8)
-![React](https://img.shields.io/badge/React-061a33?style=flat-square&logo=react&logoColor=38bdf8)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-061a33?style=flat-square&logo=postgresql&logoColor=38bdf8)
+![Django](https://img.shields.io/badge/Django-03161c?style=flat-square&logo=django&logoColor=2ee8cf)
+![DRF](https://img.shields.io/badge/DRF-03161c?style=flat-square&logoColor=2ee8cf)
+![React](https://img.shields.io/badge/React-03161c?style=flat-square&logo=react&logoColor=2ee8cf)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-03161c?style=flat-square&logo=postgresql&logoColor=2ee8cf)
 
 </td>
 <td width="50%" valign="top">
@@ -161,10 +160,10 @@ Multi-role platform serving customers, sellers and administrators — product di
 
 Chat built on the **Google Gemini API**, streaming responses token by token over **Server-Sent Events**. Conversations persist in PostgreSQL, so a session outlives the page reload.
 
-![Django](https://img.shields.io/badge/Django-061a33?style=flat-square&logo=django&logoColor=38bdf8)
-![SSE](https://img.shields.io/badge/SSE-061a33?style=flat-square&logoColor=38bdf8)
-![Gemini](https://img.shields.io/badge/Gemini-061a33?style=flat-square&logo=googlegemini&logoColor=38bdf8)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-061a33?style=flat-square&logo=postgresql&logoColor=38bdf8)
+![Django](https://img.shields.io/badge/Django-03161c?style=flat-square&logo=django&logoColor=2ee8cf)
+![SSE](https://img.shields.io/badge/SSE-03161c?style=flat-square&logoColor=2ee8cf)
+![Gemini](https://img.shields.io/badge/Gemini-03161c?style=flat-square&logo=googlegemini&logoColor=2ee8cf)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-03161c?style=flat-square&logo=postgresql&logoColor=2ee8cf)
 
 </td>
 </tr>
@@ -177,10 +176,10 @@ Chat built on the **Google Gemini API**, streaming responses token by token over
 
 Hospital management across **four distinct permission tiers** — appointments, records and staff workflows. The kind of access matrix that has to be right in the schema before it can be right in the interface.
 
-![Django](https://img.shields.io/badge/Django-061a33?style=flat-square&logo=django&logoColor=38bdf8)
-![DRF](https://img.shields.io/badge/DRF-061a33?style=flat-square&logoColor=38bdf8)
-![React](https://img.shields.io/badge/React-061a33?style=flat-square&logo=react&logoColor=38bdf8)
-![MySQL](https://img.shields.io/badge/MySQL-061a33?style=flat-square&logo=mysql&logoColor=38bdf8)
+![Django](https://img.shields.io/badge/Django-03161c?style=flat-square&logo=django&logoColor=2ee8cf)
+![DRF](https://img.shields.io/badge/DRF-03161c?style=flat-square&logoColor=2ee8cf)
+![React](https://img.shields.io/badge/React-03161c?style=flat-square&logo=react&logoColor=2ee8cf)
+![MySQL](https://img.shields.io/badge/MySQL-03161c?style=flat-square&logo=mysql&logoColor=2ee8cf)
 
 </td>
 <td width="50%" valign="top">
@@ -191,10 +190,10 @@ Hospital management across **four distinct permission tiers** — appointments, 
 
 Learning management system with courses, enrolment and content delivery separated cleanly across instructor and student roles, with permissions enforced at the API layer.
 
-![Django](https://img.shields.io/badge/Django-061a33?style=flat-square&logo=django&logoColor=38bdf8)
-![DRF](https://img.shields.io/badge/DRF-061a33?style=flat-square&logoColor=38bdf8)
-![React](https://img.shields.io/badge/React-061a33?style=flat-square&logo=react&logoColor=38bdf8)
-![JWT](https://img.shields.io/badge/JWT-061a33?style=flat-square&logo=jsonwebtokens&logoColor=38bdf8)
+![Django](https://img.shields.io/badge/Django-03161c?style=flat-square&logo=django&logoColor=2ee8cf)
+![DRF](https://img.shields.io/badge/DRF-03161c?style=flat-square&logoColor=2ee8cf)
+![React](https://img.shields.io/badge/React-03161c?style=flat-square&logo=react&logoColor=2ee8cf)
+![JWT](https://img.shields.io/badge/JWT-03161c?style=flat-square&logo=jsonwebtokens&logoColor=2ee8cf)
 
 </td>
 </tr>
@@ -207,10 +206,10 @@ Learning management system with courses, enrolment and content delivery separate
 
 Text-to-image generation through the **Hugging Face inference API**, with authentication and generated images persisted for later retrieval.
 
-![Django](https://img.shields.io/badge/Django-061a33?style=flat-square&logo=django&logoColor=38bdf8)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-061a33?style=flat-square&logo=huggingface&logoColor=38bdf8)
-![React](https://img.shields.io/badge/React-061a33?style=flat-square&logo=react&logoColor=38bdf8)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-061a33?style=flat-square&logo=postgresql&logoColor=38bdf8)
+![Django](https://img.shields.io/badge/Django-03161c?style=flat-square&logo=django&logoColor=2ee8cf)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-03161c?style=flat-square&logo=huggingface&logoColor=2ee8cf)
+![React](https://img.shields.io/badge/React-03161c?style=flat-square&logo=react&logoColor=2ee8cf)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-03161c?style=flat-square&logo=postgresql&logoColor=2ee8cf)
 
 </td>
 </tr>
@@ -219,13 +218,13 @@ Text-to-image generation through the **Hugging Face inference API**, with authen
 <div align="center">
   <br>
   <a href="https://portfolio-web-asu3.onrender.com/">
-    <img src="https://img.shields.io/badge/READ_THE_FULL_CASE_STUDIES-0a2749?style=for-the-badge&logo=readthedocs&logoColor=38bdf8&labelColor=061a33" alt="Read the full case studies" />
+    <img src="https://img.shields.io/badge/READ_THE_FULL_CASE_STUDIES-062b31?style=for-the-badge&logo=readthedocs&logoColor=2ee8cf&labelColor=03161c" alt="Read the full case studies" />
   </a>
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/05-38bdf8?style=flat-square&labelColor=061a33&color=061a33" height="20"/> &nbsp;What I Care About
+## <img src="https://img.shields.io/badge/05-2ee8cf?style=flat-square&labelColor=03161c&color=03161c" height="20"/> &nbsp;What I Care About
 
 <div align="center">
   <img src="./assets/principles.svg" alt="How I build: schema first, permissions at the API, systems not fragments, understand why" width="100%" />
@@ -239,9 +238,9 @@ Text-to-image generation through the **Hugging Face inference API**, with authen
   <p>Open to remote, hybrid and onsite roles — backend, full-stack, and API work.</p>
   <br>
 
-[![Email](https://img.shields.io/badge/jahidhr05@gmail.com-0a2749?style=for-the-badge&logo=gmail&logoColor=38bdf8&labelColor=061a33)](mailto:jahidhr05@gmail.com)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0a2749?style=for-the-badge&logo=googlechrome&logoColor=38bdf8&labelColor=061a33)](https://portfolio-web-asu3.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0a2749?style=for-the-badge&labelColor=061a33&color=0a2749)](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
+[![Email](https://img.shields.io/badge/jahidhr05@gmail.com-062b31?style=for-the-badge&logo=gmail&logoColor=2ee8cf&labelColor=03161c)](mailto:jahidhr05@gmail.com)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-062b31?style=for-the-badge&logo=googlechrome&logoColor=2ee8cf&labelColor=03161c)](https://portfolio-web-asu3.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-062b31?style=for-the-badge&labelColor=03161c&color=062b31)](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
 
   <br>
   <sub><code>Dhaka, Bangladesh</code></sub>
