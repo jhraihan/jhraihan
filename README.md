@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Md. Jahid Hasan Raihan — Full-Stack Software Engineer" width="100%" />
+  <img src="./assets/banner.svg" alt="Md. Jahid Hasan Raihan — Full-Stack Developer" width="100%" />
 </div>
 
 <div align="center">
@@ -13,7 +13,7 @@
 <br>
 
 <div align="center">
-  <h3>👋 &nbsp;Thanks for stopping by.</h3>
+  <h3>Thanks for stopping by.</h3>
   <p>
     <i>I build complete, production-shaped web applications —<br/>
     the interface, the API behind it, and the database underneath.</i>
