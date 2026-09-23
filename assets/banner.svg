@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="A friendly blob mascot waving hello beside the name Md. Jahid Hasan Raihan, full-stack developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="A floating mascot waving hello beside the name Md. Jahid Hasan Raihan, full-stack developer">
 <defs>
   <radialGradient id="bgB" cx="15%" cy="46%" r="96%">
     <stop offset="0%" stop-color="#05242a"/><stop offset="52%" stop-color="#021419"/><stop offset="100%" stop-color="#01090c"/>
@@ -9,34 +9,34 @@
   <linearGradient id="ruleG" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#2ee8cf"/><stop offset="70%" stop-color="#2ee8cf" stop-opacity=".2"/><stop offset="100%" stop-color="#2ee8cf" stop-opacity="0"/>
   </linearGradient>
-  <filter id="hazeB" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="46"/></filter>
+  <filter id="hazeB" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="44"/></filter>
 
-  <!-- organic blob body: light pools upper-left, deep teal shadow lower-right -->
-  <radialGradient id="jelly" cx="32%" cy="24%" r="88%">
-    <stop offset="0%"   stop-color="#f0fffd"/>
-    <stop offset="16%"  stop-color="#b3fdf4"/>
-    <stop offset="42%"  stop-color="#58e8da"/>
-    <stop offset="70%"  stop-color="#24bdb6"/>
-    <stop offset="100%" stop-color="#0a6b72"/>
+  <radialGradient id="body" cx="34%" cy="26%" r="86%">
+    <stop offset="0%"   stop-color="#eafffc"/>
+    <stop offset="20%"  stop-color="#a8fcf2"/>
+    <stop offset="48%"  stop-color="#4ee4d6"/>
+    <stop offset="76%"  stop-color="#1eb5b0"/>
+    <stop offset="100%" stop-color="#0a6a72"/>
   </radialGradient>
-  <radialGradient id="jellyArm" cx="28%" cy="18%" r="92%">
-    <stop offset="0%" stop-color="#f6fffe"/><stop offset="30%" stop-color="#bafef5"/>
-    <stop offset="62%" stop-color="#5ceadc"/><stop offset="100%" stop-color="#0d7a80"/>
+  <radialGradient id="limb" cx="30%" cy="22%" r="90%">
+    <stop offset="0%" stop-color="#f4fffe"/><stop offset="34%" stop-color="#b6fdf4"/>
+    <stop offset="68%" stop-color="#4fe2d6"/><stop offset="100%" stop-color="#0d787e"/>
   </radialGradient>
-  <radialGradient id="screen" cx="38%" cy="28%" r="82%">
-    <stop offset="0%" stop-color="#0b2126"/><stop offset="55%" stop-color="#041317"/><stop offset="100%" stop-color="#01080b"/>
+  <radialGradient id="visor" cx="36%" cy="26%" r="84%">
+    <stop offset="0%" stop-color="#0a2027"/><stop offset="55%" stop-color="#04141a"/><stop offset="100%" stop-color="#01090d"/>
   </radialGradient>
-  <linearGradient id="gloss" x1="8%" y1="0%" x2="60%" y2="100%">
-    <stop offset="0%" stop-color="#c8fff9" stop-opacity=".26"/>
-    <stop offset="45%" stop-color="#c8fff9" stop-opacity=".04"/>
-    <stop offset="100%" stop-color="#c8fff9" stop-opacity="0"/>
+  <linearGradient id="gloss" x1="10%" y1="0%" x2="58%" y2="100%">
+    <stop offset="0%" stop-color="#ccfffa" stop-opacity=".30"/>
+    <stop offset="46%" stop-color="#ccfffa" stop-opacity=".05"/>
+    <stop offset="100%" stop-color="#ccfffa" stop-opacity="0"/>
   </linearGradient>
   <filter id="eg" x="-90%" y="-90%" width="280%" height="280%">
-    <feGaussianBlur stdDeviation="3.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <feGaussianBlur stdDeviation="3.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <filter id="s16" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="16"/></filter>
-  <filter id="s9"  x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="9"/></filter>
-  <filter id="bloom" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="46"/></filter>
+  <filter id="s14" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>
+  <filter id="s8"  x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="8"/></filter>
+  <filter id="s20" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="20"/></filter>
+  <filter id="bloom" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="44"/></filter>
 
 </defs>
 <rect width="1000" height="300" rx="22" fill="url(#bgB)"/>
@@ -44,78 +44,93 @@
   <path d="M0 75H1000M0 150H1000M0 225H1000"/>
   <path d="M125 0V300M250 0V300M375 0V300M500 0V300M625 0V300M750 0V300M875 0V300"/>
 </g>
-<ellipse cx="176" cy="158" rx="180" ry="162" fill="#22d8c4" opacity=".24" filter="url(#hazeB)"/>
-<g transform="translate(18 6) scale(0.755)">
-<!-- ============ WAVING BLOB ARM ============ -->
-<g>
-  <animateTransform attributeName="transform" type="rotate"
-    values="-14 150 320; 6 150 320; -14 150 320" dur="2.6s" repeatCount="indefinite"/>
-  <!-- soft teardrop nub, wide at base, rounded tip -->
-  <path d="M166 292
-           C104 250  92 196 102 156
-           C109 126 134 112 154 126
-           C174 140 178 178 172 216
-           C167 250 162 274 166 294 Z"
-        fill="url(#jellyArm)"/>
-  <path d="M198 220 C159 252 156 274 160 294 L178 294 C172 272 174 248 179 218 Z"
-        fill="#075d5f" opacity=".42" filter="url(#s9)"/>
-  <ellipse cx="124" cy="166" rx="24" ry="40" transform="rotate(-14 124 166)" fill="#ffffff" opacity=".34" filter="url(#s16)"/>
-</g>
+<ellipse cx="180" cy="150" rx="172" ry="152" fill="#22d8c4" opacity=".22" filter="url(#hazeB)"/>
+<g transform="translate(10 -16) scale(0.72)">
+<!-- GROUND SHADOW: proves it's floating; breathes with the hover -->
+<ellipse cx="200" cy="344" rx="74" ry="15" fill="#00e0cc" opacity=".26" filter="url(#s14)">
+  <animate attributeName="rx" values="74;60;74" dur="3.4s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".26;.16;.26" dur="3.4s" repeatCount="indefinite"/>
+</ellipse>
 
-<!-- ============ BLOB BODY: asymmetric, gooey, settled ============ -->
+<!-- EVERYTHING FLOATS TOGETHER -->
 <g>
-  <path d="M240 78
-           C296 78 340 118 348 178
-           C354 224 348 266 328 288
-           C306 312 264 322 224 320
-           C184 318 148 304 132 278
-           C114 250 116 204 132 166
-           C150 124 188 78 240 78 Z"
-        fill="url(#jelly)"/>
-  <!-- weight/shadow pooling bottom-right -->
-  <ellipse cx="288" cy="276" rx="100" ry="68" fill="#05585e" opacity=".42" filter="url(#s16)"/>
-  <!-- key light upper-left -->
-  <ellipse cx="176" cy="142" rx="52" ry="42" fill="#f2fffe" opacity=".55" filter="url(#s16)"/>
-  <!-- rim light right -->
-  <path d="M240 78c56 0 100 40 108 100c6 46 0 88-20 110c-13 15-34 25-58 29c26-12 41-29 47-50c9-38 11-84 2-118C310 112 282 88 240 82z"
-        fill="#d6fff9" opacity=".3"/>
-  <!-- gooey sheen -->
-  <ellipse cx="206" cy="258" rx="82" ry="50" fill="#a6f9f0" opacity=".12" filter="url(#s16)"/>
-</g>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0; 0 -17; 0 0" dur="3.4s" repeatCount="indefinite"
+    calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>
 
-<!-- ============ SCREEN FACE ============ -->
-<g>
-  <ellipse cx="246" cy="186" rx="86" ry="77" fill="#043b3e" opacity=".5" filter="url(#s9)"/>
-  <ellipse cx="244" cy="182" rx="80" ry="72" fill="url(#screen)"/>
-  <ellipse cx="244" cy="182" rx="80" ry="72" fill="url(#gloss)"/>
-  <path d="M182 150 a80 72 0 0 1 64-42 a80 72 0 0 0-56 50z" fill="#cffff9" opacity=".13"/>
+  <!-- LEFT TRAILING NUB -->
+  <ellipse cx="112" cy="252" rx="26" ry="34" transform="rotate(20 112 252)" fill="url(#limb)" opacity=".95"/>
 
-  <!-- happy curved eyes + smile -->
-  <g fill="none" stroke="#3dffdc" stroke-width="9" stroke-linecap="round" filter="url(#eg)">
-    <path d="M206 174 q12-16 24 0">
-      <animate attributeName="d" values="M206 174 q12-16 24 0; M206 178 q12 2 24 0; M206 174 q12-16 24 0"
-               dur="5.5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M260 174 q12-16 24 0">
-      <animate attributeName="d" values="M260 174 q12-16 24 0; M260 178 q12 2 24 0; M260 174 q12-16 24 0"
-               dur="5.5s" repeatCount="indefinite"/>
-    </path>
+  <!-- WAVING ARM: forearm + open hand, pivots at the shoulder -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate"
+      values="-16 300 250; 13 300 250; -16 300 250" dur="1.5s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    <path d="M296 256 C318 224 334 192 344 166" stroke="url(#limb)" stroke-width="30" stroke-linecap="round" fill="none"/>
+    <!-- palm -->
+    <ellipse cx="350" cy="150" rx="27" ry="25" fill="url(#limb)"/>
+    <!-- fingers -->
+    <g fill="url(#limb)">
+      <rect x="327" y="100" width="15" height="46" rx="7.5" transform="rotate(-14 334 123)"/>
+      <rect x="343" y="93" width="15" height="53" rx="7.5" transform="rotate(-3 350 119)"/>
+      <rect x="359" y="100" width="15" height="46" rx="7.5" transform="rotate(9 366 123)"/>
+      <ellipse cx="327" cy="166" rx="10.5" ry="14" transform="rotate(-42 327 166)"/>
+    </g>
+    <g stroke="#158f92" stroke-width="2" opacity=".4" stroke-linecap="round" fill="none">
+      <path d="M341 110v34M357 106v38"/>
+    </g>
+    <ellipse cx="342" cy="142" rx="12" ry="10" fill="#ffffff" opacity=".55" filter="url(#s8)"/>
   </g>
-  <path d="M222 212 q22 18 44 0" stroke="#3dffdc" stroke-width="7" fill="none" stroke-linecap="round" opacity=".92" filter="url(#eg)"/>
+
+  <!-- BODY: soft rounded droplet -->
+  <path d="M196 92
+           C262 92 306 136 310 196
+           C314 250 292 292 250 304
+           C214 314 170 312 140 298
+           C 100 280  84 238  88 190
+           C 93 134 134 92 196 92 Z"
+        fill="url(#body)"/>
+  <ellipse cx="246" cy="266" rx="86" ry="56" fill="#06565f" opacity=".38" filter="url(#s20)"/>
+  <ellipse cx="148" cy="150" rx="46" ry="36" fill="#f2fffe" opacity=".6" filter="url(#s14)"/>
+  <path d="M196 92c66 0 110 44 114 104c4 54-18 96-60 108c-9 3-19 5-30 6c28-11 44-30 50-54c10-44 6-90-8-120C248 114 226 98 196 96z"
+        fill="#d6fff9" opacity=".3"/>
+
+  <!-- VISOR -->
+  <ellipse cx="202" cy="196" rx="84" ry="74" fill="#04373d" opacity=".5" filter="url(#s8)"/>
+  <ellipse cx="200" cy="192" rx="79" ry="69" fill="url(#visor)"/>
+  <ellipse cx="200" cy="192" rx="79" ry="69" fill="url(#gloss)"/>
+  <path d="M136 156 a79 69 0 0 1 66-42 a79 69 0 0 0-54 50z" fill="#cffff9" opacity=".13"/>
+
+  <!-- FACE: bright arc eyes + smile -->
+  <g filter="url(#eg)">
+    <g fill="none" stroke="#4dffe2" stroke-width="10" stroke-linecap="round">
+      <path d="M166 182 q13-17 26 0">
+        <animate attributeName="d"
+          values="M166 182 q13-17 26 0; M166 186 q13 2 26 0; M166 182 q13-17 26 0"
+          dur="5.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M208 182 q13-17 26 0">
+        <animate attributeName="d"
+          values="M208 182 q13-17 26 0; M208 186 q13 2 26 0; M208 182 q13-17 26 0"
+          dur="5.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <path d="M176 218 q24 20 48 0" stroke="#4dffe2" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
 </g>
 
 </g>
 <g>
-  <rect x="368" y="44" width="166" height="42" rx="21" fill="#06333a" stroke="#2ee8cf" stroke-opacity=".55"/>
-  <path d="M396 86 l-9 16 25-16z" fill="#06333a"/>
-  <text x="451" y="71" fill="#9ff5e6" font-size="16.5" text-anchor="middle"
+  <rect x="372" y="44" width="166" height="42" rx="21" fill="#06333a" stroke="#2ee8cf" stroke-opacity=".55"/>
+  <path d="M400 86 l-9 16 25-16z" fill="#06333a"/>
+  <text x="455" y="71" fill="#9ff5e6" font-size="16.5" text-anchor="middle"
         font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Hello there</text>
   <animate attributeName="opacity" values=".35;1;1;1;1;.35" dur="4.6s" repeatCount="indefinite"/>
 </g>
 <g font-family="Segoe UI,Helvetica,Arial,sans-serif">
-  <text x="368" y="166" fill="url(#nameG)" font-size="43" font-weight="700" letter-spacing="-1.1">Md. Jahid Hasan Raihan</text>
-  <rect x="368" y="184" width="512" height="2" fill="url(#ruleG)"/>
-  <text x="368" y="220" fill="#5eead4" font-size="16" font-family="ui-monospace,Menlo,Consolas,monospace">Full-Stack Developer · Django · React · PostgreSQL</text>
-  <text x="368" y="251" fill="#4d8f8a" font-size="13.5" font-family="ui-monospace,Menlo,Consolas,monospace">Dhaka, Bangladesh  ·  I build complete systems, end to end</text>
+  <text x="372" y="166" fill="url(#nameG)" font-size="43" font-weight="700" letter-spacing="-1.1">Md. Jahid Hasan Raihan</text>
+  <rect x="372" y="184" width="508" height="2" fill="url(#ruleG)"/>
+  <text x="372" y="220" fill="#5eead4" font-size="16" font-family="ui-monospace,Menlo,Consolas,monospace">Full-Stack Developer · Django · React · PostgreSQL</text>
+  <text x="372" y="251" fill="#4d8f8a" font-size="13.5" font-family="ui-monospace,Menlo,Consolas,monospace">Dhaka, Bangladesh  ·  I build complete systems, end to end</text>
 </g>
 </svg>
