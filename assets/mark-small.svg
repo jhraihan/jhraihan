@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="JR monogram">
+<defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#7dfff0"/><stop offset="100%" stop-color="#16b6ad"/></linearGradient></defs>
+<rect width="64" height="64" rx="13" fill="#03161c"/>
+<path d="M32 6 L54 19 L54 45 L32 58 L10 45 L10 19 Z" fill="url(#g)"/>
+<text x="32" y="42" text-anchor="middle" fill="#03161c" font-size="27" font-weight="800"
+      font-family="Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="-1.5">JR</text>
+</svg>
