@@ -1,82 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="Byte, a waving pixel-eyed mascot, beside the name Md. Jahid Hasan Raihan">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Md. Jahid Hasan Raihan, Full-Stack Software Engineer">
   <defs>
-    <radialGradient id="bg" cx="16%" cy="26%" r="98%">
-      <stop offset="0%" stop-color="#06301f"/>
-      <stop offset="55%" stop-color="#03160f"/>
-      <stop offset="100%" stop-color="#010a07"/>
+    <linearGradient id="core" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc"/><stop offset="50%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/><stop offset="60%" stop-color="#4f46e5" stop-opacity=".5"/><stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="22%" cy="45%" r="80%">
+      <stop offset="0%" stop-color="#0c1c33"/><stop offset="60%" stop-color="#070d1a"/><stop offset="100%" stop-color="#04070f"/>
     </radialGradient>
-    <linearGradient id="body" x1="22%" y1="0%" x2="78%" y2="100%">
-      <stop offset="0%" stop-color="#9dfbcd"/>
-      <stop offset="42%" stop-color="#41ec93"/>
-      <stop offset="100%" stop-color="#149c5c"/>
-    </linearGradient>
-    <linearGradient id="arm" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#a6fcd2"/>
-      <stop offset="100%" stop-color="#36d685"/>
-    </linearGradient>
-    <linearGradient id="sheen" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity=".5"/>
-      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="7" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="18"/>
-    </filter>
+    <filter id="haze" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="26"/></filter>
   </defs>
 
-  <rect width="900" height="260" rx="20" fill="url(#bg)"/>
-
-  <g stroke="#2ef08a" stroke-opacity=".06" stroke-width="1">
-    <path d="M0 65H900M0 130H900M0 195H900"/>
-    <path d="M150 0V260M300 0V260M450 0V260M600 0V260M750 0V260"/>
+  <rect width="1000" height="280" rx="22" fill="url(#vig)"/>
+  <g stroke="#22d3ee" stroke-opacity=".05" stroke-width="1">
+    <path d="M0 70H1000M0 140H1000M0 210H1000"/>
+    <path d="M125 0V280M250 0V280M375 0V280M500 0V280M625 0V280M750 0V280M875 0V280"/>
   </g>
+  <ellipse cx="165" cy="140" rx="105" ry="95" fill="#1d4ed8" opacity=".28" filter="url(#haze)"/>
 
-  <ellipse cx="152" cy="150" rx="88" ry="80" fill="#1fdd7d" opacity=".26" filter="url(#soft)"/>
-
-  <!-- waving arm, detached from the head silhouette -->
-  <g filter="url(#glow)">
-    <path d="M104 150c-16-6-30-22-34-44-4-23 6-40 19-42 13-2 23 12 26 33 2 16 0 32-3 43z"
-          fill="url(#arm)" transform="rotate(-8 100 140)">
-      <animateTransform attributeName="transform" type="rotate"
-        values="-14 100 150; 4 100 150; -14 100 150" dur="2.6s" repeatCount="indefinite"/>
-    </path>
-  </g>
-
-  <!-- body -->
-  <g filter="url(#glow)">
-    <path d="M156 72c38 0 66 28 66 64v24c0 33-29 58-66 58s-66-25-66-58v-24c0-36 28-64 66-64z" fill="url(#body)"/>
-    <path d="M156 72c38 0 66 28 66 64v8c-10-28-35-46-66-46s-56 18-66 46v-8c0-36 28-64 66-64z" fill="url(#sheen)"/>
-    <ellipse cx="156" cy="126" rx="39" ry="35" fill="#020f0a"/>
-  </g>
-
-  <!-- pixel eyes -->
-  <g fill="#41ff9c">
-    <g>
-      <rect x="136" y="116" width="5" height="5"/><rect x="142" y="116" width="5" height="5"/><rect x="148" y="116" width="5" height="5"/>
-      <rect x="136" y="122" width="5" height="5"/><rect x="148" y="122" width="5" height="5"/>
-      <rect x="136" y="128" width="5" height="5"/><rect x="148" y="128" width="5" height="5"/>
-      <animate attributeName="opacity" values="1;1;1;1;1;1;.1;1;1;1;1;1" dur="5.5s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <rect x="164" y="116" width="5" height="5"/><rect x="170" y="116" width="5" height="5"/><rect x="176" y="116" width="5" height="5"/>
-      <rect x="164" y="122" width="5" height="5"/><rect x="176" y="122" width="5" height="5"/>
-      <rect x="164" y="128" width="5" height="5"/><rect x="176" y="128" width="5" height="5"/>
-      <animate attributeName="opacity" values="1;1;1;1;1;1;.1;1;1;1;1;1" dur="5.5s" repeatCount="indefinite"/>
+  <!-- hex core glyph -->
+  <g transform="translate(165 140)">
+    <g filter="url(#glow)">
+      <g opacity=".95">
+        <path d="M0 -84 L73 -42 L73 42 L0 84 L-73 42 L-73 -42 Z" fill="none" stroke="url(#core)" stroke-width="2.6" opacity=".6">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="34s" repeatCount="indefinite"/>
+        </path>
+        <path d="M0 -58 L50 -29 L50 29 L0 58 L-50 29 L-50 -29 Z" fill="none" stroke="url(#core)" stroke-width="2" opacity=".42">
+          <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="26s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <g stroke="#22d3ee" stroke-width="1.6" opacity=".55">
+        <path d="M0 -84V-58M73 -42L50 -29M73 42L50 29M0 84V58M-73 42L-50 29M-73 -42L-50 -29"/>
+      </g>
+      <circle r="27" fill="none" stroke="#7dd3fc" stroke-width="2.4" opacity=".9"/>
+      <circle r="10" fill="#a5f3fc">
+        <animate attributeName="r" values="9;12;9" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;.72;1" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <g fill="#7dd3fc">
+        <circle cx="0" cy="-84" r="3.6"/><circle cx="73" cy="-42" r="3.6"/><circle cx="73" cy="42" r="3.6"/>
+        <circle cx="0" cy="84" r="3.6"/><circle cx="-73" cy="42" r="3.6"/><circle cx="-73" cy="-42" r="3.6"/>
+      </g>
     </g>
   </g>
 
+  <!-- wordmark -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-    <text x="276" y="84" fill="#2ee98c" font-size="14" letter-spacing="3.5">~/jhraihan $ whoami</text>
-    <text x="276" y="136" fill="#eafff4" font-size="33" font-weight="700" letter-spacing="-.4">Md. Jahid Hasan Raihan</text>
-    <text x="276" y="170" fill="#7df3b8" font-size="16">Full-Stack Engineer · Django · DRF · React · PostgreSQL</text>
-    <g>
-      <text x="276" y="206" fill="#4fbf8d" font-size="13.5" opacity=".92">Dhaka, Bangladesh — building complete systems, end to end</text>
-      <rect x="716" y="194" width="9" height="16" fill="#41ff9c">
-        <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/>
-      </rect>
-    </g>
+    <text x="322" y="86" fill="#22d3ee" font-size="13" letter-spacing="5.5" opacity=".92">FULL-STACK SOFTWARE ENGINEER</text>
+    <text x="322" y="152" fill="url(#name)" font-size="46" font-weight="700" letter-spacing="-1.2"
+          font-family="Segoe UI,Helvetica,Arial,sans-serif">Md. Jahid Hasan Raihan</text>
+    <rect x="322" y="172" width="560" height="2" fill="url(#rule)"/>
+    <text x="322" y="208" fill="#93c5fd" font-size="16">Django · DRF · React · PostgreSQL</text>
+    <text x="322" y="238" fill="#64748b" font-size="13.5">Dhaka, Bangladesh  ·  I build complete systems, end to end</text>
   </g>
 </svg>

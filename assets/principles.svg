@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 272" width="1000" height="272" role="img" aria-label="How I build: schema first, permissions at the API, systems not fragments, understand why">
+  <defs>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="tint" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".12"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="272" rx="20" fill="#05090f"/>
+  <g stroke="#22d3ee" stroke-opacity=".045"><path d="M0 68H1000M0 136H1000M0 204H1000"/></g>
+  <text x="44" y="50" fill="#22d3ee" font-size="12.5" font-family="ui-monospace,Menlo,Consolas,monospace" letter-spacing="4.5">HOW I BUILD</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <g>
+      <rect x="44" y="80" width="4" height="40" rx="2" fill="url(#acc)"/>
+      <rect x="58" y="80" width="380" height="40" fill="url(#tint)"/>
+      <text x="70" y="98" fill="#e2f4ff" font-size="14.5" font-weight="700">Schema first</text>
+      <text x="70" y="114" fill="#6f8bb0" font-size="11.5">the data model decided before the first endpoint</text>
+    </g>
+    <g>
+      <rect x="520" y="80" width="4" height="40" rx="2" fill="url(#acc)"/>
+      <rect x="534" y="80" width="380" height="40" fill="url(#tint)"/>
+      <text x="546" y="98" fill="#e2f4ff" font-size="14.5" font-weight="700">Permissions at the API</text>
+      <text x="546" y="114" fill="#6f8bb0" font-size="11.5">enforced server-side, never hidden in the UI</text>
+    </g>
+    <g>
+      <rect x="44" y="146" width="4" height="40" rx="2" fill="url(#acc)"/>
+      <rect x="58" y="146" width="380" height="40" fill="url(#tint)"/>
+      <text x="70" y="164" fill="#e2f4ff" font-size="14.5" font-weight="700">Systems, not fragments</text>
+      <text x="70" y="180" fill="#6f8bb0" font-size="11.5">interface, API and database — every project complete</text>
+    </g>
+    <g>
+      <rect x="520" y="146" width="4" height="40" rx="2" fill="url(#acc)"/>
+      <rect x="534" y="146" width="380" height="40" fill="url(#tint)"/>
+      <text x="546" y="164" fill="#e2f4ff" font-size="14.5" font-weight="700">Understand why</text>
+      <text x="546" y="180" fill="#6f8bb0" font-size="11.5">rather than just getting it working</text>
+    </g>
+  </g>
+
+  <text x="44" y="232" fill="#8aa6c8" font-size="12.5" font-family="ui-monospace,Menlo,Consolas,monospace">Django · DRF · React · PostgreSQL — the stack I reach for first</text>
+  <text x="44" y="254" fill="#4a6590" font-size="11.5" font-family="ui-monospace,Menlo,Consolas,monospace">Data structures and algorithms are where I go to sharpen how I think about problems.</text>
+</svg>
