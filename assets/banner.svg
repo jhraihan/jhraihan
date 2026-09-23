@@ -1,63 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Md. Jahid Hasan Raihan, Full-Stack Software Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="A friendly robot waving hello beside the name Md. Jahid Hasan Raihan, full-stack developer">
   <defs>
-    <linearGradient id="core" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7dd3fc"/><stop offset="50%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#4f46e5"/>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07203f"/><stop offset="45%" stop-color="#0a2f5c"/><stop offset="100%" stop-color="#061a33"/>
     </linearGradient>
+    <linearGradient id="skin" x1="26%" y1="6%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/><stop offset="52%" stop-color="#f4f8fc"/><stop offset="100%" stop-color="#c9d7e8"/>
+    </linearGradient>
+    <linearGradient id="skin2" x1="18%" y1="0%" x2="92%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/><stop offset="58%" stop-color="#eff4fa"/><stop offset="100%" stop-color="#bfcfe2"/>
+    </linearGradient>
+    <radialGradient id="hl" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".95"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="name" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#7dd3fc"/>
+      <stop offset="0%" stop-color="#ffffff"/><stop offset="60%" stop-color="#dbeafe"/><stop offset="100%" stop-color="#7dd3fc"/>
     </linearGradient>
     <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22d3ee"/><stop offset="60%" stop-color="#4f46e5" stop-opacity=".5"/><stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#38bdf8"/><stop offset="70%" stop-color="#38bdf8" stop-opacity=".25"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="vig" cx="22%" cy="45%" r="80%">
-      <stop offset="0%" stop-color="#0c1c33"/><stop offset="60%" stop-color="#070d1a"/><stop offset="100%" stop-color="#04070f"/>
-    </radialGradient>
-    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
-      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="sh" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#020f1f" flood-opacity=".55"/>
     </filter>
-    <filter id="haze" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="26"/></filter>
+    <filter id="haze" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="30"/></filter>
   </defs>
 
-  <rect width="1000" height="280" rx="22" fill="url(#vig)"/>
-  <g stroke="#22d3ee" stroke-opacity=".05" stroke-width="1">
-    <path d="M0 70H1000M0 140H1000M0 210H1000"/>
-    <path d="M125 0V280M250 0V280M375 0V280M500 0V280M625 0V280M750 0V280M875 0V280"/>
+  <rect width="1000" height="300" rx="22" fill="url(#sky)"/>
+  <g stroke="#7dd3fc" stroke-opacity=".05" stroke-width="1">
+    <path d="M0 75H1000M0 150H1000M0 225H1000"/>
+    <path d="M125 0V300M250 0V300M375 0V300M500 0V300M625 0V300M750 0V300M875 0V300"/>
   </g>
-  <ellipse cx="165" cy="140" rx="105" ry="95" fill="#1d4ed8" opacity=".28" filter="url(#haze)"/>
+  <ellipse cx="165" cy="170" rx="130" ry="115" fill="#1d6fd0" opacity=".3" filter="url(#haze)"/>
 
-  <!-- hex core glyph -->
-  <g transform="translate(165 140)">
-    <g filter="url(#glow)">
-      <g opacity=".95">
-        <path d="M0 -84 L73 -42 L73 42 L0 84 L-73 42 L-73 -42 Z" fill="none" stroke="url(#core)" stroke-width="2.6" opacity=".6">
-          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="34s" repeatCount="indefinite"/>
-        </path>
-        <path d="M0 -58 L50 -29 L50 29 L0 58 L-50 29 L-50 -29 Z" fill="none" stroke="url(#core)" stroke-width="2" opacity=".42">
-          <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="26s" repeatCount="indefinite"/>
-        </path>
+  <!-- mascot -->
+  <g transform="translate(60 44) scale(0.78)" filter="url(#sh)">
+    <path d="M150 168c48 0 84 34 84 76 0 34-30 56-84 56s-84-22-84-56c0-42 36-76 84-76z" fill="url(#skin)"/>
+    <path d="M78 214c-16 6-26 22-24 40 2 16 13 25 24 22z" fill="url(#skin2)" opacity=".95"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-10 214 206; 10 214 206; -10 214 206" dur="2.3s" repeatCount="indefinite"/>
+      <path d="M212 212c14-8 24-22 28-38" stroke="url(#skin2)" stroke-width="34" stroke-linecap="round" fill="none"/>
+      <g fill="url(#skin2)">
+        <ellipse cx="250" cy="150" rx="26" ry="24"/>
+        <rect x="232" y="106" width="15" height="44" rx="7.5"/>
+        <rect x="248" y="100" width="15" height="50" rx="7.5"/>
+        <rect x="264" y="106" width="15" height="44" rx="7.5"/>
+        <rect x="278" y="118" width="14" height="36" rx="7"/>
+        <ellipse cx="226" cy="158" rx="11" ry="14" transform="rotate(-28 226 158)"/>
       </g>
-      <g stroke="#22d3ee" stroke-width="1.6" opacity=".55">
-        <path d="M0 -84V-58M73 -42L50 -29M73 42L50 29M0 84V58M-73 42L-50 29M-73 -42L-50 -29"/>
-      </g>
-      <circle r="27" fill="none" stroke="#7dd3fc" stroke-width="2.4" opacity=".9"/>
-      <circle r="10" fill="#a5f3fc">
-        <animate attributeName="r" values="9;12;9" dur="3.2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="1;.72;1" dur="3.2s" repeatCount="indefinite"/>
-      </circle>
-      <g fill="#7dd3fc">
-        <circle cx="0" cy="-84" r="3.6"/><circle cx="73" cy="-42" r="3.6"/><circle cx="73" cy="42" r="3.6"/>
-        <circle cx="0" cy="84" r="3.6"/><circle cx="-73" cy="42" r="3.6"/><circle cx="-73" cy="-42" r="3.6"/>
-      </g>
+    </g>
+    <ellipse cx="150" cy="112" rx="74" ry="62" fill="url(#skin)"/>
+    <ellipse cx="124" cy="94" rx="32" ry="21" fill="url(#hl)" opacity=".8"/>
+    <g>
+      <circle cx="122" cy="120" r="9" fill="#121f2c"/>
+      <circle cx="182" cy="106" r="9" fill="#121f2c"/>
+      <path d="M130 117 L174 108" stroke="#121f2c" stroke-width="3.6" stroke-linecap="round"/>
+      <animate attributeName="opacity" values="1;1;1;1;1;1;1;1;1;.06;1;1" dur="6.5s" repeatCount="indefinite"/>
     </g>
   </g>
 
-  <!-- wordmark -->
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-    <text x="322" y="86" fill="#22d3ee" font-size="13" letter-spacing="5.5" opacity=".92">FULL-STACK SOFTWARE ENGINEER</text>
-    <text x="322" y="152" fill="url(#name)" font-size="46" font-weight="700" letter-spacing="-1.2"
-          font-family="Segoe UI,Helvetica,Arial,sans-serif">Md. Jahid Hasan Raihan</text>
-    <rect x="322" y="172" width="560" height="2" fill="url(#rule)"/>
-    <text x="322" y="208" fill="#93c5fd" font-size="16">Django · DRF · React · PostgreSQL</text>
-    <text x="322" y="238" fill="#64748b" font-size="13.5">Dhaka, Bangladesh  ·  I build complete systems, end to end</text>
+  <!-- speech bubble -->
+  <g>
+    <rect x="322" y="52" width="150" height="40" rx="20" fill="#0f3a6b" stroke="#38bdf8" stroke-opacity=".5"/>
+    <path d="M348 92 l-8 14 22-14z" fill="#0f3a6b"/>
+    <text x="397" y="78" fill="#bae6fd" font-size="16" text-anchor="middle"
+          font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Hello there</text>
+    <animate attributeName="opacity" values=".35;1;1;1;1;.35" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+
+  <g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+    <text x="322" y="168" fill="url(#name)" font-size="45" font-weight="700" letter-spacing="-1.1">Md. Jahid Hasan Raihan</text>
+    <rect x="322" y="186" width="540" height="2" fill="url(#rule)"/>
+    <text x="322" y="222" fill="#7dd3fc" font-size="17" font-family="ui-monospace,Menlo,Consolas,monospace">Full-Stack Developer · Django · React · PostgreSQL</text>
+    <text x="322" y="254" fill="#64809f" font-size="13.5" font-family="ui-monospace,Menlo,Consolas,monospace">Dhaka, Bangladesh  ·  I build complete systems, end to end</text>
   </g>
 </svg>
