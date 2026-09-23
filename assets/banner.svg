@@ -1,110 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Md. Jahid Hasan Raihan, full-stack developer. A live diagram showing a request travelling from React through DRF and Django and the ORM to PostgreSQL.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Md. Jahid Hasan Raihan, full-stack developer. An animated diagram showing a request flowing from the interface through the REST API and Django to PostgreSQL.">
 <defs>
-  <radialGradient id="bg" cx="20%" cy="18%" r="105%">
-    <stop offset="0%" stop-color="#062a33"/><stop offset="50%" stop-color="#02161c"/><stop offset="100%" stop-color="#01090c"/>
+  <radialGradient id="bg" cx="22%" cy="14%" r="110%">
+    <stop offset="0%" stop-color="#07303a"/><stop offset="46%" stop-color="#02171e"/><stop offset="100%" stop-color="#01090c"/>
   </radialGradient>
   <linearGradient id="nameG" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#ffffff"/><stop offset="52%" stop-color="#cdfff7"/><stop offset="100%" stop-color="#2ee8cf"/>
+    <stop offset="0%" stop-color="#ffffff"/><stop offset="50%" stop-color="#cffff8"/><stop offset="100%" stop-color="#2ee8cf"/>
   </linearGradient>
-  <linearGradient id="hx" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#a8fff4"/><stop offset="50%" stop-color="#2ee8cf"/><stop offset="100%" stop-color="#0b6f7d"/>
+  <linearGradient id="tail" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#4dffe2" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#7dffe9" stop-opacity=".85"/>
   </linearGradient>
-  <filter id="pg" x="-300%" y="-300%" width="700%" height="700%">
-    <feGaussianBlur stdDeviation="3.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  <linearGradient id="rule" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#2ee8cf"/><stop offset="55%" stop-color="#2ee8cf" stop-opacity=".2"/><stop offset="100%" stop-color="#2ee8cf" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="comet" x="-400%" y="-400%" width="900%" height="900%">
+    <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="40"/></filter>
+  <filter id="aura" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="46"/></filter>
 </defs>
 
 <rect width="1000" height="340" rx="22" fill="url(#bg)"/>
-<g stroke="#2ee8cf" stroke-opacity=".035" stroke-width="1">
-  <path d="M0 68H1000M0 136H1000M0 204H1000M0 272H1000"/>
-  <path d="M125 0V340M250 0V340M375 0V340M500 0V340M625 0V340M750 0V340M875 0V340"/>
-</g>
-<ellipse cx="200" cy="80" rx="260" ry="120" fill="#12808c" opacity=".2" filter="url(#soft)"/>
 
-<!-- header row: mark + name -->
-<g transform="translate(58 62)">
-  <path d="M0 -34 L29 -17 L29 17 L0 34 L-29 17 L-29 -17 Z" fill="#06242c" stroke="url(#hx)" stroke-width="2.2"/>
-  <text x="0" y="8" text-anchor="middle" fill="url(#hx)" font-size="22" font-weight="700"
-        font-family="Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="-1.2">JR</text>
+<!-- drifting grid: slow parallax, gives the whole frame life -->
+<g stroke="#2ee8cf" stroke-opacity=".05" stroke-width="1">
+  <g><path d="M0 70H1000M0 140H1000M0 210H1000M0 280H1000"/></g>
+  <g>
+    <path d="M0 0V340M100 0V340M200 0V340M300 0V340M400 0V340M500 0V340M600 0V340M700 0V340M800 0V340M900 0V340M1000 0V340M1100 0V340"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-100 0" dur="16s" repeatCount="indefinite"/>
+  </g>
 </g>
-<g>
-  <text x="104" y="54" fill="url(#nameG)" font-size="30" font-weight="700" letter-spacing="-.7"
-        font-family="Segoe UI,Helvetica,Arial,sans-serif">Md. Jahid Hasan Raihan</text>
-  <text x="105" y="78" fill="#4d9aa2" font-size="12" letter-spacing="3.4"
-        font-family="ui-monospace,Menlo,Consolas,monospace">FULL-STACK DEVELOPER · DHAKA, BD</text>
-</g>
+<ellipse cx="300" cy="90" rx="330" ry="130" fill="#0f7f8e" opacity=".22" filter="url(#aura)"/>
 
-<!-- section label -->
-<text x="58" y="128" fill="#2ee8cf" font-size="11.5" letter-spacing="4.4"
-      font-family="ui-monospace,Menlo,Consolas,monospace">THE PATH OF A SINGLE REQUEST</text>
+<!-- eyebrow -->
+<text x="64" y="76" fill="#2ee8cf" font-size="11.5" letter-spacing="6" opacity="0"
+      font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">FULL-STACK DEVELOPER
+  <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.1s" fill="freeze"/>
+</text>
+
+<!-- name -->
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 18;0 0" dur="0.85s" begin="0.35s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1"/><text x="62" y="150" fill="url(#nameG)" font-size="46" font-weight="700" letter-spacing="-1.2" font-family="Segoe UI,Helvetica,Arial,sans-serif">Md. Jahid Hasan Raihan</text></g>
+
+<!-- rule sweeps open -->
+<rect x="62" y="168" width="0" height="2" fill="url(#rule)">
+  <animate attributeName="width" values="0;620" dur="0.9s" begin="0.85s" fill="freeze"
+           calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1"/>
+</rect>
+
+<text x="64" y="198" fill="#5eead4" font-size="14.5" opacity="0"
+      font-family="ui-monospace,Menlo,Consolas,monospace">Django · DRF · React · PostgreSQL
+  <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.0s" fill="freeze"/>
+</text>
 
 <!-- pipeline -->
-<path d="M216.0 196H284.0" stroke="#1d6b78" stroke-width="1.6" fill="none"/>
-<path d="M416.0 196H484.0" stroke="#1d6b78" stroke-width="1.6" fill="none"/>
-<path d="M616.0 196H684.0" stroke="#1d6b78" stroke-width="1.6" fill="none"/>
-<path d="M816.0 196H858" stroke="#1d6b78" stroke-width="1.6" fill="none"/>
-<path d="M276.0 191l8 5-8 5z" fill="#2ee8cf" opacity=".75"/>
-<path d="M476.0 191l8 5-8 5z" fill="#2ee8cf" opacity=".75"/>
-<path d="M676.0 191l8 5-8 5z" fill="#2ee8cf" opacity=".75"/>
-<path d="M850 191l8 5-8 5z" fill="#2ee8cf" opacity=".75"/>
-<g>
-  <rect x="84.0" y="164.0" width="132" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
-  <rect x="84.0" y="164.0" width="132" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="0.0s" repeatCount="indefinite"/>
+<path d="M243 248H315" stroke="#17505e" stroke-width="1.4" fill="none" stroke-dasharray="72" stroke-dashoffset="72"><animate attributeName="stroke-dashoffset" values="72;0" dur="0.5s" begin="1.26s" fill="freeze"/></path><path d="M465 248H537" stroke="#17505e" stroke-width="1.4" fill="none" stroke-dasharray="72" stroke-dashoffset="72"><animate attributeName="stroke-dashoffset" values="72;0" dur="0.5s" begin="1.42s" fill="freeze"/></path><path d="M687 248H759" stroke="#17505e" stroke-width="1.4" fill="none" stroke-dasharray="72" stroke-dashoffset="72"><animate attributeName="stroke-dashoffset" values="72;0" dur="0.5s" begin="1.58s" fill="freeze"/></path>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.10s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.6s" begin="1.10s" fill="freeze"
+    calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+  <rect x="93.0" y="220.0" width="150" height="56" rx="12" fill="#07202a" stroke="#1b5f6e" stroke-width="1.3"/>
+  <rect x="93.0" y="220.0" width="150" height="56" rx="12" fill="none" stroke="#4dffe2" stroke-width="1.6" opacity="0">
+    <animate attributeName="opacity" values="0;0;.9;0" keyTimes="0;0.020;0.080;0.300"
+             dur="5s" begin="1.95s" repeatCount="indefinite"/>
   </rect>
-  <text x="150" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
+  <text x="168" y="246" text-anchor="middle" fill="#eafffc" font-size="14.5" font-weight="700"
         font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">React</text>
-  <text x="150" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
-        font-family="ui-monospace,Menlo,Consolas,monospace">Vite · Router</text>
-</g>
-<g>
-  <rect x="284.0" y="164.0" width="132" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
-  <rect x="284.0" y="164.0" width="132" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="0.62s" repeatCount="indefinite"/>
+  <text x="168" y="264" text-anchor="middle" fill="#5a8e9b" font-size="10"
+        font-family="ui-monospace,Menlo,Consolas,monospace" letter-spacing="1.2">interface</text>
+</g><g opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.26s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.6s" begin="1.26s" fill="freeze"
+    calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+  <rect x="315.0" y="220.0" width="150" height="56" rx="12" fill="#07202a" stroke="#1b5f6e" stroke-width="1.3"/>
+  <rect x="315.0" y="220.0" width="150" height="56" rx="12" fill="none" stroke="#4dffe2" stroke-width="1.6" opacity="0">
+    <animate attributeName="opacity" values="0;0;.9;0" keyTimes="0;0.255;0.315;0.535"
+             dur="5s" begin="1.95s" repeatCount="indefinite"/>
   </rect>
-  <text x="350" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">DRF</text>
-  <text x="350" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
-        font-family="ui-monospace,Menlo,Consolas,monospace">serializers · JWT</text>
-</g>
-<g>
-  <rect x="484.0" y="164.0" width="132" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
-  <rect x="484.0" y="164.0" width="132" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="1.24s" repeatCount="indefinite"/>
+  <text x="390" y="246" text-anchor="middle" fill="#eafffc" font-size="14.5" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">REST API</text>
+  <text x="390" y="264" text-anchor="middle" fill="#5a8e9b" font-size="10"
+        font-family="ui-monospace,Menlo,Consolas,monospace" letter-spacing="1.2">contract</text>
+</g><g opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.42s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.6s" begin="1.42s" fill="freeze"
+    calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+  <rect x="537.0" y="220.0" width="150" height="56" rx="12" fill="#07202a" stroke="#1b5f6e" stroke-width="1.3"/>
+  <rect x="537.0" y="220.0" width="150" height="56" rx="12" fill="none" stroke="#4dffe2" stroke-width="1.6" opacity="0">
+    <animate attributeName="opacity" values="0;0;.9;0" keyTimes="0;0.490;0.550;0.770"
+             dur="5s" begin="1.95s" repeatCount="indefinite"/>
   </rect>
-  <text x="550" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
+  <text x="612" y="246" text-anchor="middle" fill="#eafffc" font-size="14.5" font-weight="700"
         font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Django</text>
-  <text x="550" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
-        font-family="ui-monospace,Menlo,Consolas,monospace">views · perms</text>
-</g>
-<g>
-  <rect x="684.0" y="164.0" width="132" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
-  <rect x="684.0" y="164.0" width="132" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="1.8599999999999999s" repeatCount="indefinite"/>
+  <text x="612" y="264" text-anchor="middle" fill="#5a8e9b" font-size="10"
+        font-family="ui-monospace,Menlo,Consolas,monospace" letter-spacing="1.2">logic</text>
+</g><g opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.58s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="0.6s" begin="1.58s" fill="freeze"
+    calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+  <rect x="759.0" y="220.0" width="150" height="56" rx="12" fill="#07202a" stroke="#1b5f6e" stroke-width="1.3"/>
+  <rect x="759.0" y="220.0" width="150" height="56" rx="12" fill="none" stroke="#4dffe2" stroke-width="1.6" opacity="0">
+    <animate attributeName="opacity" values="0;0;.9;0" keyTimes="0;0.725;0.785;1.005"
+             dur="5s" begin="1.95s" repeatCount="indefinite"/>
   </rect>
-  <text x="750" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">ORM</text>
-  <text x="750" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
-        font-family="ui-monospace,Menlo,Consolas,monospace">queryset</text>
+  <text x="834" y="246" text-anchor="middle" fill="#eafffc" font-size="14.5" font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">PostgreSQL</text>
+  <text x="834" y="264" text-anchor="middle" fill="#5a8e9b" font-size="10"
+        font-family="ui-monospace,Menlo,Consolas,monospace" letter-spacing="1.2">state</text>
 </g>
-<g>
-  <rect x="858.0" y="164.0" width="96" height="64" rx="14" fill="#08222c" stroke="#1d6b78" stroke-width="1.4"/>
-  <rect x="858.0" y="164.0" width="96" height="64" rx="14" fill="none" stroke="#3dffe0" stroke-width="1.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.12;0.4" dur="4.4s" begin="2.48s" repeatCount="indefinite"/>
-  </rect>
-  <text x="906" y="192" text-anchor="middle" fill="#e8fffc" font-size="15" font-weight="700"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">DB</text>
-  <text x="906" y="212" text-anchor="middle" fill="#5f93a0" font-size="10.5"
-        font-family="ui-monospace,Menlo,Consolas,monospace">Postgres</text>
-</g>
-<circle r="4.5" fill="#3dffe0" filter="url(#pg)"><animateMotion dur="4.4s" begin="0s" repeatCount="indefinite" path="M216.0 196H284.0M416.0 196H484.0M616.0 196H684.0M816.0 196H858"/></circle>
-<circle r="4.5" fill="#3dffe0" filter="url(#pg)"><animateMotion dur="4.4s" begin="1.47s" repeatCount="indefinite" path="M216.0 196H284.0M416.0 196H484.0M616.0 196H684.0M816.0 196H858"/></circle>
-<circle r="4.5" fill="#3dffe0" filter="url(#pg)"><animateMotion dur="4.4s" begin="2.94s" repeatCount="indefinite" path="M216.0 196H284.0M416.0 196H484.0M616.0 196H684.0M816.0 196H858"/></circle>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.95s" fill="freeze"/><g filter="url(#comet)"><ellipse rx="17" ry="2.6" fill="url(#tail)"/><circle r="4.6" fill="#7dffe9"/><circle r="9" fill="#4dffe2" opacity=".28"/></g><animateMotion dur="5s" begin="1.95s" repeatCount="indefinite" path="M243 248H315M465 248H537M687 248H759" rotate="auto"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.61s" fill="freeze"/><g filter="url(#comet)"><ellipse rx="17" ry="2.6" fill="url(#tail)"/><circle r="4.6" fill="#7dffe9"/><circle r="9" fill="#4dffe2" opacity=".28"/></g><animateMotion dur="5s" begin="3.61s" repeatCount="indefinite" path="M243 248H315M465 248H537M687 248H759" rotate="auto"/></g><g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="5.27s" fill="freeze"/><g filter="url(#comet)"><ellipse rx="17" ry="2.6" fill="url(#tail)"/><circle r="4.6" fill="#7dffe9"/><circle r="9" fill="#4dffe2" opacity=".28"/></g><animateMotion dur="5s" begin="5.27s" repeatCount="indefinite" path="M243 248H315M465 248H537M687 248H759" rotate="auto"/></g>
 
-<!-- footer line -->
-<text x="58" y="292" fill="#7fb8c2" font-size="12.5"
-      font-family="ui-monospace,Menlo,Consolas,monospace">Auth at the edge · permissions per role · prefetch to kill N+1 · schema before the first endpoint</text>
-<text x="58" y="314" fill="#3f7883" font-size="11.5"
-      font-family="ui-monospace,Menlo,Consolas,monospace">Every project is a whole system — interface, API and database — not an isolated feature.</text>
+<!-- footer -->
+<text x="64" y="308" fill="#4e8c98" font-size="11.5" opacity="0"
+      font-family="ui-monospace,Menlo,Consolas,monospace" letter-spacing=".4">Dhaka, Bangladesh  ·  I build complete systems — interface, API and database
+  <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.7s" fill="freeze"/>
+</text>
 </svg>
