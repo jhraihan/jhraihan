@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-062b31?style=for-the-badge&logo=googlechrome&logoColor=2ee8cf&labelColor=03161c)](https://portfolio-web-asu3.onrender.com/)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-062b31?style=for-the-badge&logo=googlechrome&logoColor=2ee8cf&labelColor=03161c)](https://jhraihan.vercel.app/)
 [<img src="./assets/linkedin.svg" alt="LinkedIn" height="28"/>](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
 [![Email](https://img.shields.io/badge/EMAIL-062b31?style=for-the-badge&logo=gmail&logoColor=2ee8cf&labelColor=03161c)](mailto:jahidhr05@gmail.com)
 
@@ -209,7 +209,7 @@ Text-to-image generation through the **Hugging Face inference API**, with authen
 
 <div align="center">
   <br>
-  <a href="https://portfolio-web-asu3.onrender.com/">
+  <a href="https://jhraihan.vercel.app/">
     <img src="https://img.shields.io/badge/READ_THE_FULL_CASE_STUDIES-062b31?style=for-the-badge&logo=readthedocs&logoColor=2ee8cf&labelColor=03161c" alt="Read the full case studies" />
   </a>
 </div>
@@ -231,7 +231,7 @@ Text-to-image generation through the **Hugging Face inference API**, with authen
   <br>
 
 [![Email](https://img.shields.io/badge/jahidhr05@gmail.com-062b31?style=for-the-badge&logo=gmail&logoColor=2ee8cf&labelColor=03161c)](mailto:jahidhr05@gmail.com)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-062b31?style=for-the-badge&logo=googlechrome&logoColor=2ee8cf&labelColor=03161c)](https://portfolio-web-asu3.onrender.com/)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-062b31?style=for-the-badge&logo=googlechrome&logoColor=2ee8cf&labelColor=03161c)](https://jhraihan.vercel.app/)
 [<img src="./assets/linkedin.svg" alt="LinkedIn" height="28"/>](https://www.linkedin.com/in/md-jahid-hasan-raihan-745023393)
 
   <br>
